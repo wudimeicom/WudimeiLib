@@ -1,0 +1,126 @@
+# depslib dependency file v1.0
+1431764560 source:d:\projects\code_blocks\wudimeilib\examples\example_login\main.cpp
+	<windows.h>
+	<stdio.h>
+	"resource.h"
+	<TCHAR.h>
+	<DS/WString.h>
+	<UI/WApp.h>
+	<UI/WForm.h>
+	<UI/WLabel.h>
+	<UI/WTextfield.h>
+	<UI/WButton.h>
+
+1385316878 d:\projects\code_blocks\wudimeilib\examples\example_login\resource.h
+
+1399337615 d:\projects\code_blocks\wudimeilib\wudimeilib\include\ui\wapp.h
+	<windows.h>
+	"./UI.h"
+
+1431747191 d:\projects\code_blocks\wudimeilib\wudimeilib\include\ui\ui.h
+	<windows.h>
+
+1399110864 d:\projects\code_blocks\wudimeilib\wudimeilib\include\ui\wform.h
+	"WBox.h"
+
+1431748524 d:\projects\code_blocks\wudimeilib\wudimeilib\include\ui\wbox.h
+	<windows.h>
+	"./UI.h"
+	<tchar.h>
+	<DS/WNameList.h>
+
+1399337030 d:\projects\code_blocks\wudimeilib\wudimeilib\include\ds\wnamelist.h
+	"./DS.h"
+
+1431747826 d:\projects\code_blocks\wudimeilib\wudimeilib\include\ds\ds.h
+	<windows.h>
+
+1385316878 source:d:\projects\code_blocks\wudimeilib\examples\example_login\resource.rc
+	<windows.h>
+	<commctrl.h>
+	<richedit.h>
+	"resource.h"
+
+1399337615 d:\projects\code_blocks\wudimeilib\wudimei.ui\include\ui\wapp.h
+	<windows.h>
+	"./UI.h"
+
+1431747191 d:\projects\code_blocks\wudimeilib\wudimei.ui\include\ui\ui.h
+	<windows.h>
+
+1399110864 d:\projects\code_blocks\wudimeilib\wudimei.ui\include\ui\wform.h
+	"WBox.h"
+
+1431748524 d:\projects\code_blocks\wudimeilib\wudimei.ui\include\ui\wbox.h
+	<windows.h>
+	"./UI.h"
+	<tchar.h>
+	<DS/WNameList.h>
+
+1399337030 d:\projects\code_blocks\wudimeilib\wudimei.ds\include\ds\wnamelist.h
+	"./DS.h"
+
+1431747826 d:\projects\code_blocks\wudimeilib\wudimei.ds\include\ds\ds.h
+	<windows.h>
+
+1431747344 d:\projects\code_blocks\wudimeilib\wudimei.ui\include\ui\wlabel.h
+	"WBox.h"
+	"./UI.h"
+
+1399734667 d:\projects\code_blocks\wudimeilib\wudimei.ui\include\ui\wtextfield.h
+	"WBox.h"
+
+1431763085 d:\projects\code_blocks\wudimeilib\wudimei.ui\include\ui\wbutton.h
+	<UI/WBox.h>
+	<UI/WControl.h>
+
+1431762896 d:\projects\code_blocks\wudimeilib\wudimei.ui\include\ui\wcontrol.h
+	<UI/WBox.h>
+
+1431749969 d:\projects\code_blocks\wudimeilib\wudimei.ds\include\ds\wstring.h
+	"./DS.h"
+
+1431765983 source:d:\projects\code_blocks\wudimeilib\examples\example_radio\main.cpp
+	<windows.h>
+	<stdio.h>
+	"resource.h"
+	<TCHAR.h>
+	<DS/WString.h>
+	<UI/WApp.h>
+	<UI/WForm.h>
+	<UI/WLabel.h>
+	<UI/WButton.h>
+	<UI/WGroupBox.h>
+	<UI/WRadio.h>
+
+1385316878 d:\projects\code_blocks\wudimeilib\examples\example_radio\resource.h
+
+1431747331 d:\projects\code_blocks\wudimeilib\wudimei.ui\include\ui\wgroupbox.h
+	"WBox.h"
+
+1431747369 d:\projects\code_blocks\wudimeilib\wudimei.ui\include\ui\wradio.h
+	"WBox.h"
+	"WGroupBox.h"
+
+1385316878 source:d:\projects\code_blocks\wudimeilib\examples\example_radio\resource.rc
+	<windows.h>
+	<commctrl.h>
+	<richedit.h>
+	"resource.h"
+
+1385316878 source:d:\projects\code_blocks\wudimeilib\examples\example_checkbox\resource.rc
+	<windows.h>
+	<commctrl.h>
+	<richedit.h>
+	"resource.h"
+
+1385316878 d:\projects\code_blocks\wudimeilib\examples\example_checkbox\resource.h
+
+1385316878 source:d:\projects\code_blocks\wudimeilib\examples\example_select\resource.rc
+	<windows.h>
+	<commctrl.h>
+	<richedit.h>
+	"resource.h"
+
+1385316878 d:\projects\code_blocks\wudimeilib\examples\example_select\resource.h
+

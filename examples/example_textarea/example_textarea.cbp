@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="example_textarea" />
+		<Option pch_mode="2" />
+		<Option compiler="msvc10" />
+		<Build>
+			<Target title="unicode">
+				<Option output="../../WudimeiLibBin/unicode/example_textarea" prefix_auto="1" extension_auto="1" />
+				<Option object_output="../../WudimeiLibBin/obj/example_textarea/unicode/" />
+				<Option type="0" />
+				<Option compiler="msvc10" />
+				<Compiler>
+					<Add option="/Zi" />
+					<Add option="/D_DEBUG" />
+					<Add option="/DUNICODE" />
+					<Add option="/D_UNICODE" />
+					<Add directory="../../WudimeiLib/include" />
+					<Add directory="../../Wudimei.DS/include" />
+					<Add directory="../../Wudimei.UI/include" />
+				</Compiler>
+				<Linker>
+					<Add option="/DEBUG" />
+					<Add library="..\..\WudimeiLibBin\unicode\Wudimei_DS_u.lib" />
+					<Add library="..\..\WudimeiLibBin\unicode\Wudimei_UI_u.lib" />
+				</Linker>
+			</Target>
+			<Target title="anscii">
+				<Option output="../../WudimeiLibBin/ascii/example_textarea" prefix_auto="1" extension_auto="1" />
+				<Option object_output="../../WudimeiLibBin/obj/example_textarea/ascii/" />
+				<Option type="0" />
+				<Option compiler="msvc10" />
+				<Compiler>
+					<Add option="/Ox" />
+					<Add option="/DNDEBUG" />
+					<Add directory="../../Wudimei.DS/include" />
+					<Add directory="../../Wudimei.UI/include" />
+				</Compiler>
+				<Linker>
+					<Add library="..\..\WudimeiLibBin\ascii\Wudimei_DS_a.lib" />
+					<Add library="..\..\WudimeiLibBin\ascii\Wudimei_UI_a.lib" />
+				</Linker>
+			</Target>
+			<Target title="debug">
+				<Option output="../../WudimeiLibBin/ascii/example_textarea" prefix_auto="1" extension_auto="1" />
+				<Option object_output="../../WudimeiLibBin/obj/example_textarea/debug/" />
+				<Option type="0" />
+				<Option compiler="msvc10" />
+				<Compiler>
+					<Add option="/Ox" />
+					<Add option="/DDEBUG" />
+					<Add option="/D_DEBUG" />
+					<Add directory="../../Wudimei.DS/include" />
+					<Add directory="../../Wudimei.UI/include" />
+				</Compiler>
+				<Linker>
+					<Add library="..\..\WudimeiLibBin\ascii\Wudimei_DS_d.lib" />
+					<Add library="..\..\WudimeiLibBin\ascii\Wudimei_UI_d.lib" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="/W3" />
+			<Add directory="$(#psdk.include)" />
+		</Compiler>
+		<Linker>
+			<Add library="gdi32" />
+			<Add library="user32" />
+			<Add library="kernel32" />
+			<Add library="comctl32" />
+			<Add directory="$(#psdk.lib)" />
+		</Linker>
+		<Unit filename="main.cpp" />
+		<Unit filename="manifest.xml" />
+		<Unit filename="resource.h" />
+		<Unit filename="resource.rc">
+			<Option compilerVar="WINDRES" />
+		</Unit>
+		<Extensions>
+			<code_completion>
+				<search_path add="..\..\Wudimei.DS\include" />
+				<search_path add="..\..\Wudimei.UI\include" />
+			</code_completion>
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_workspace_file>
+	<Workspace title="Workspace">
+		<Project filename="Wudimei.UI/WudimeiUI.cbp" />
+		<Project filename="Wudimei.DS/WudimeiDS.cbp" />
+		<Project filename="examples/example_login/example_login.cbp" />
+		<Project filename="examples/example_radio/example_radio.cbp" />
+		<Project filename="examples/example_checkbox/example_checkbox.cbp" />
+		<Project filename="examples/example_image/example_image.cbp" />
+		<Project filename="examples/example_select/example_select.cbp" />
+		<Project filename="examples/example_listbox/example_listbox.cbp" />
+	</Workspace>
+</CodeBlocks_workspace_file>

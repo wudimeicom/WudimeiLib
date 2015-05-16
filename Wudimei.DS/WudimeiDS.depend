@@ -1,0 +1,706 @@
+# depslib dependency file v1.0
+1399043536 source:d:\projects\code_blocks\WudimeiLib\main.cpp
+	"main.h"
+	"include/UI/WApp.h"
+	"include/UI/WBox.h"
+	"include/UI/WButton.h"
+	"include/UI/WForm.h"
+	"include/UI/WTextfield.h"
+	"include/UI/WTextarea.h"
+	"include/UI/WGroupBox.h"
+	"include/UI/WRadio.h"
+	"include/UI/WLabel.h"
+	"include/UI/WCheckbox.h"
+	"include/UI/WNameList.h"
+
+1385316878 d:\projects\code_blocks\WudimeiLib\main.h
+	<windows.h>
+
+1398774962 d:\projects\code_blocks\WudimeiLib\include\box.h
+	"../main.h"
+
+1398775010 source:d:\projects\code_blocks\WudimeiLib\src\box.cpp
+	"../include/UI/UI/Box.h"
+
+1398775010 d:\projects\code_blocks\WudimeiLib\src\box.cpp
+	"../include/UI/UI/Box.h"
+
+1399044101 d:\projects\code_blocks\WudimeiLib\include\wbox.h
+	<windows.h>
+	"../main.h"
+	"WNameList.h"
+
+1399044420 source:d:\projects\code_blocks\WudimeiLib\src\wbox.cpp
+	"../include/UI/UI/WBox.h"
+	"../include/UI/UI/WApp.h"
+
+1399014651 source:d:\projects\code_blocks\WudimeiLib\src\wbutton.cpp
+	"../include/UI/UI/WButton.h"
+	"../include/UI/UI/WApp.h"
+
+1399014538 d:\projects\code_blocks\WudimeiLib\include\wbutton.h
+	"WBox.h"
+
+1399044403 source:d:\projects\code_blocks\WudimeiLib\src\wform.cpp
+	"../include/UI/UI/WForm.h"
+	"../include/UI/UI/WApp.h"
+
+1398956457 d:\projects\code_blocks\WudimeiLib\include\wform.h
+	"WBox.h"
+
+1398952461 d:\projects\code_blocks\WudimeiLib\include\wapp.h
+	<windows.h>
+	"../main.h"
+
+1398952452 source:d:\projects\code_blocks\WudimeiLib\src\wapp.cpp
+	"../include/UI/UI/WApp.h"
+
+1399014370 d:\projects\code_blocks\WudimeiLib\include\wtextfield.h
+	"WBox.h"
+
+1399014190 d:\projects\code_blocks\WudimeiLib\include\wtextarea.h
+	"../include/UI/UI/WBox.h"
+
+1399013674 d:\projects\code_blocks\WudimeiLib\include\wgroupbox.h
+	"../include/UI/UI/WBox.h"
+
+1399013072 d:\projects\code_blocks\WudimeiLib\include\wradio.h
+	"../include/UI/UI/WBox.h"
+	"../include/UI/UI/WGroupBox.h"
+
+1399013753 source:d:\projects\code_blocks\WudimeiLib\src\wgroupbox.cpp
+	"../include/UI/UI/WGroupBox.h"
+
+1399013325 source:d:\projects\code_blocks\WudimeiLib\src\wradio.cpp
+	"../include/UI/UI/WRadio.h"
+
+1399014183 source:d:\projects\code_blocks\WudimeiLib\src\wtextarea.cpp
+	"../include/UI/UI/WTextarea.h"
+
+1399014479 source:d:\projects\code_blocks\WudimeiLib\src\wtextfield.cpp
+	"../include/UI/UI/WTextfield.h"
+
+1399016088 d:\projects\code_blocks\WudimeiLib\include\wlabel.h
+	"../include/UI/UI/WBox.h"
+	"../main.h"
+
+1399031907 d:\projects\code_blocks\WudimeiLib\include\wcheckbox.h
+	"../include/UI/UI/WBox.h"
+	"../include/UI/UI/WGroupBox.h"
+
+1399032735 source:d:\projects\code_blocks\WudimeiLib\src\wcheckbox.cpp
+	"../include/UI/UI/WCheckbox.h"
+
+1399016105 source:d:\projects\code_blocks\WudimeiLib\src\wlabel.cpp
+	"../include/UI/UI/WLabel.h"
+
+1399043589 d:\projects\code_blocks\WudimeiLib\include\wnamelist.h
+	"../main.h"
+
+1399045039 source:d:\projects\code_blocks\WudimeiLib\src\wnamelist.cpp
+	"../include/UI/UI/WNameList.h"
+	<Windows.h>
+	<TCHAR.h>
+
+1399043536 source:d:\projects\code_blocks\wudimeilib\WudimeiLib\main.cpp
+	"main.h"
+	"include/UI/WApp.h"
+	"include/UI/WBox.h"
+	"include/UI/WButton.h"
+	"include/UI/WForm.h"
+	"include/UI/WTextfield.h"
+	"include/UI/WTextarea.h"
+	"include/UI/WGroupBox.h"
+	"include/UI/WRadio.h"
+	"include/UI/WLabel.h"
+	"include/UI/WCheckbox.h"
+	"include/UI/WNameList.h"
+
+1385316878 d:\projects\code_blocks\wudimeilib\WudimeiLib\main.h
+	<windows.h>
+
+1398952461 d:\projects\code_blocks\wudimeilib\WudimeiLib\include\wapp.h
+	<windows.h>
+	"../main.h"
+
+1399098541 d:\projects\code_blocks\wudimeilib\WudimeiLib\include\wbox.h
+	<windows.h>
+	"../main.h"
+	"WNameList.h"
+
+1399043589 d:\projects\code_blocks\wudimeilib\WudimeiLib\include\wnamelist.h
+	"../main.h"
+
+1399098850 d:\projects\code_blocks\wudimeilib\WudimeiLib\include\wbutton.h
+	"WBox.h"
+
+1398956457 d:\projects\code_blocks\wudimeilib\WudimeiLib\include\wform.h
+	"WBox.h"
+
+1399014370 d:\projects\code_blocks\wudimeilib\WudimeiLib\include\wtextfield.h
+	"WBox.h"
+
+1399014190 d:\projects\code_blocks\wudimeilib\WudimeiLib\include\wtextarea.h
+	"../include/UI/UI/WBox.h"
+
+1399013674 d:\projects\code_blocks\wudimeilib\WudimeiLib\include\wgroupbox.h
+	"../include/UI/UI/WBox.h"
+
+1399013072 d:\projects\code_blocks\wudimeilib\WudimeiLib\include\wradio.h
+	"../include/UI/UI/WBox.h"
+	"../include/UI/UI/WGroupBox.h"
+
+1399016088 d:\projects\code_blocks\wudimeilib\WudimeiLib\include\wlabel.h
+	"../include/UI/UI/WBox.h"
+	"../main.h"
+
+1399031907 d:\projects\code_blocks\wudimeilib\WudimeiLib\include\wcheckbox.h
+	"../include/UI/UI/WBox.h"
+	"../include/UI/UI/WGroupBox.h"
+
+1398952452 source:d:\projects\code_blocks\wudimeilib\WudimeiLib\src\wapp.cpp
+	"../include/UI/UI/WApp.h"
+
+1399014651 source:d:\projects\code_blocks\wudimeilib\WudimeiLib\src\wbutton.cpp
+	"../include/UI/UI/WButton.h"
+	"../include/UI/UI/WApp.h"
+
+1399032735 source:d:\projects\code_blocks\wudimeilib\WudimeiLib\src\wcheckbox.cpp
+	"../include/UI/UI/WCheckbox.h"
+
+1399046076 source:d:\projects\code_blocks\wudimeilib\WudimeiLib\src\wform.cpp
+	"../include/UI/UI/WForm.h"
+	"../include/UI/UI/WApp.h"
+
+1399013753 source:d:\projects\code_blocks\wudimeilib\WudimeiLib\src\wgroupbox.cpp
+	"../include/UI/UI/WGroupBox.h"
+
+1399016105 source:d:\projects\code_blocks\wudimeilib\WudimeiLib\src\wlabel.cpp
+	"../include/UI/UI/WLabel.h"
+
+1399045596 source:d:\projects\code_blocks\wudimeilib\WudimeiLib\src\wnamelist.cpp
+	"../include/UI/UI/WNameList.h"
+	<Windows.h>
+	<TCHAR.h>
+
+1399013325 source:d:\projects\code_blocks\wudimeilib\WudimeiLib\src\wradio.cpp
+	"../include/UI/UI/WRadio.h"
+
+1399014183 source:d:\projects\code_blocks\wudimeilib\WudimeiLib\src\wtextarea.cpp
+	"../include/UI/UI/WTextarea.h"
+
+1399014479 source:d:\projects\code_blocks\wudimeilib\WudimeiLib\src\wtextfield.cpp
+	"../include/UI/UI/WTextfield.h"
+
+1399098743 source:d:\projects\code_blocks\wudimeilib\WudimeiLib\src\wbox.cpp
+	"../include/UI/UI/WBox.h"
+	"../include/UI/UI/WApp.h"
+
+1402041764 source:d:\projects\code_blocks\wudimeilib\wudimei.ui\main.cpp
+	"include/UI/UI.h"
+	"include/UI/WApp.h"
+	"include/UI/WBox.h"
+	"include/UI/WButton.h"
+	"include/UI/WForm.h"
+	"include/UI/WTextfield.h"
+	"include/UI/WTextarea.h"
+	"include/UI/WGroupBox.h"
+	"include/UI/WRadio.h"
+	"include/UI/WLabel.h"
+	"include/UI/WCheckbox.h"
+	"include/UI/WSelect.h"
+	"include/UI/WListBox.h"
+	"include/UI/WImageList.h"
+	"include/UI/WListView.h"
+	"include/UI/WSlider.h"
+	"include/UI/WDateTimePicker.h"
+	"include/UI/WTrayIcon.h"
+
+1399288079 d:\projects\code_blocks\wudimeilib\wudimei.ui\main.h
+	<windows.h>
+
+1399337615 d:\projects\code_blocks\wudimeilib\wudimei.ui\include\wapp.h
+	<windows.h>
+	"./UI.h"
+
+1402027250 d:\projects\code_blocks\wudimeilib\wudimei.ui\include\wbox.h
+	<windows.h>
+	"./UI.h"
+	<tchar.h>
+	<WNameList.h>
+
+1399337030 d:\projects\code_blocks\wudimeilib\wudimei.ds\include\wnamelist.h
+	"./DS.h"
+
+1399288506 d:\projects\code_blocks\wudimeilib\wudimei.ds\main.h
+	<windows.h>
+
+1399688733 d:\projects\code_blocks\wudimeilib\wudimei.ui\include\wbutton.h
+	"WBox.h"
+
+1399110864 d:\projects\code_blocks\wudimeilib\wudimei.ui\include\wform.h
+	"WBox.h"
+
+1399734667 d:\projects\code_blocks\wudimeilib\wudimei.ui\include\wtextfield.h
+	"WBox.h"
+
+1399736688 d:\projects\code_blocks\wudimeilib\wudimei.ui\include\wtextarea.h
+	"../include/UI/UI/WBox.h"
+	"../include/UI/UI/WTextfield.h"
+
+1399688852 d:\projects\code_blocks\wudimeilib\wudimei.ui\include\wgroupbox.h
+	"../include/UI/UI/WBox.h"
+
+1399689273 d:\projects\code_blocks\wudimeilib\wudimei.ui\include\wradio.h
+	"../include/UI/UI/WBox.h"
+	"../include/UI/UI/WGroupBox.h"
+
+1399688861 d:\projects\code_blocks\wudimeilib\wudimei.ui\include\wlabel.h
+	"../include/UI/UI/WBox.h"
+	"./UI.h"
+
+1399689180 d:\projects\code_blocks\wudimeilib\wudimei.ui\include\wcheckbox.h
+	"../include/UI/UI/WBox.h"
+	"../include/UI/UI/WGroupBox.h"
+
+1399111070 source:d:\projects\code_blocks\wudimeilib\wudimei.ui\src\wapp.cpp
+	"../include/UI/UI/WApp.h"
+
+1402027327 source:d:\projects\code_blocks\wudimeilib\wudimei.ui\src\wbox.cpp
+	"../include/UI/UI/WBox.h"
+	"../include/UI/UI/WApp.h"
+
+1399688772 source:d:\projects\code_blocks\wudimeilib\wudimei.ui\src\wbutton.cpp
+	"../include/UI/UI/WButton.h"
+	"../include/UI/UI/WApp.h"
+
+1399689165 source:d:\projects\code_blocks\wudimeilib\wudimei.ui\src\wcheckbox.cpp
+	"../include/UI/UI/WCheckbox.h"
+
+1401982723 source:d:\projects\code_blocks\wudimeilib\wudimei.ui\src\wform.cpp
+	"../include/UI/UI/WForm.h"
+	"../include/UI/UI/WApp.h"
+
+1399688986 source:d:\projects\code_blocks\wudimeilib\wudimei.ui\src\wgroupbox.cpp
+	"../include/UI/UI/WGroupBox.h"
+
+1399689007 source:d:\projects\code_blocks\wudimeilib\wudimei.ui\src\wlabel.cpp
+	"../include/UI/UI/WLabel.h"
+
+1399689256 source:d:\projects\code_blocks\wudimeilib\wudimei.ui\src\wradio.cpp
+	"../include/UI/UI/WRadio.h"
+
+1401982831 source:d:\projects\code_blocks\wudimeilib\wudimei.ui\src\wtextarea.cpp
+	"../include/UI/UI/WTextarea.h"
+
+1399734850 source:d:\projects\code_blocks\wudimeilib\wudimei.ui\src\wtextfield.cpp
+	"../include/UI/UI/WTextfield.h"
+
+1399688897 d:\projects\code_blocks\wudimeilib\wudimei.ui\include\wselect.h
+	"./UI.h"
+	"../include/UI/UI/WBox.h"
+
+1401958414 d:\projects\code_blocks\wudimeilib\wudimei.ui\include\ui.h
+	<windows.h>
+
+1401958345 d:\projects\code_blocks\wudimeilib\wudimei.ds\include\ds.h
+	<windows.h>
+
+1399689049 source:d:\projects\code_blocks\wudimeilib\wudimei.ui\src\wselect.cpp
+	"../include/UI/UI/WSelect.h"
+
+1399456049 d:\projects\code_blocks\wudimeilib\wudimei.ui\include\wlistbox.h
+	"WBox.h"
+
+1399693116 source:d:\projects\code_blocks\wudimeilib\wudimei.ui\src\wbmp.cpp
+	"WBmp.h"
+
+1399386688 d:\projects\code_blocks\wudimeilib\wudimei.ui\include\wbmp.h
+	"WBox.h"
+
+1399456271 source:d:\projects\code_blocks\wudimeilib\wudimei.ui\src\wlistbox.cpp
+	"../include/UI/UI/WListBox.h"
+
+1399608139 d:\projects\code_blocks\wudimeilib\wudimei.ui\include\wlistview.h
+	"../include/UI/UI/WBox.h"
+	"./UI.h"
+	"../include/UI/UI/WImageList.h"
+
+1399609173 source:d:\projects\code_blocks\wudimeilib\wudimei.ui\src\wlistview.cpp
+	"../include/UI/UI/WListView.h"
+	<commctrl.h>
+
+1399600537 d:\projects\code_blocks\wudimeilib\wudimei.ui\include\wimagelist.h
+	<windows.h>
+	"./UI.h"
+	<commctrl.h>
+	"WBox.h"
+
+1399600500 source:d:\projects\code_blocks\wudimeilib\wudimei.ui\src\wimagelist.cpp
+	"../include/UI/UI/WImageList.h"
+	"../include/UI/UI/WApp.h"
+
+1399704112 d:\projects\code_blocks\wudimeilib\wudimei.ui\include\wslider.h
+	"WBox.h"
+
+1399704215 source:d:\projects\code_blocks\wudimeilib\wudimei.ui\src\wslider.cpp
+	"../include/UI/UI/WSlider.h"
+	<windows.h>
+	<commctrl.h>
+
+1402024703 d:\projects\code_blocks\wudimeilib\wudimei.ui\include\wdatetimepicker.h
+	"WBox.h"
+
+1402024829 source:d:\projects\code_blocks\wudimeilib\wudimei.ui\src\wdatetimepicker.cpp
+	"../include/UI/UI/WDateTimePicker.h"
+	<commctrl.h>
+
+1402044894 d:\projects\code_blocks\wudimeilib\wudimei.ui\include\wtrayicon.h
+	"WBox.h"
+	<ShellAPI.h>
+
+1402044954 source:d:\projects\code_blocks\wudimeilib\wudimei.ui\src\wtrayicon.cpp
+	"WTrayIcon.h"
+	"../include/UI/UI/WApp.h"
+	<ShellAPI.h>
+
+1431748034 source:d:\projects\code_blocks\wudimeilib\wudimeilib\main.cpp
+	"include/DS/DS.h"
+	"include/DS/WNameList.h"
+	"include/DS/WMath.h"
+	"include/DS/WString.h"
+	"include/DS/WVector.h"
+	"include/DS/WDirectory.h"
+	"include/DS/WLinkList.h"
+	"include/UI/UI.h"
+	"include/UI/WApp.h"
+	"include/UI/WBox.h"
+	"include/UI/WButton.h"
+	"include/UI/WForm.h"
+	"include/UI/WTextfield.h"
+	"include/UI/WTextarea.h"
+	"include/UI/WGroupBox.h"
+	"include/UI/WRadio.h"
+	"include/UI/WLabel.h"
+	"include/UI/WCheckbox.h"
+	"include/UI/WSelect.h"
+	"include/UI/WListBox.h"
+	"include/UI/WImageList.h"
+	"include/UI/WListView.h"
+	"include/UI/WSlider.h"
+	"include/UI/WDateTimePicker.h"
+	"include/UI/WTrayIcon.h"
+
+1431747826 d:\projects\code_blocks\wudimeilib\wudimeilib\include\ds\ds.h
+	<windows.h>
+
+1399337030 d:\projects\code_blocks\wudimeilib\wudimeilib\include\ds\wnamelist.h
+	"./DS.h"
+
+1399337018 d:\projects\code_blocks\wudimeilib\wudimeilib\include\ds\wmath.h
+	"./DS.h"
+
+1431749969 d:\projects\code_blocks\wudimeilib\wudimeilib\include\ds\wstring.h
+	"./DS.h"
+
+1411893350 d:\projects\code_blocks\wudimeilib\wudimeilib\include\ds\wvector.h
+	"./DS.h"
+
+1431748513 d:\projects\code_blocks\wudimeilib\wudimeilib\include\ds\wdirectory.h
+	"./DS.h"
+	<io.h>
+	<direct.h>
+	<DS/WString.h>
+	<DS/WLinkList.h>
+	<iostream>
+
+1411913076 d:\projects\code_blocks\wudimeilib\wudimeilib\include\ds\wlinklist.h
+	"./DS.h"
+
+1431747191 d:\projects\code_blocks\wudimeilib\wudimeilib\include\ui\ui.h
+	<windows.h>
+
+1399337615 d:\projects\code_blocks\wudimeilib\wudimeilib\include\ui\wapp.h
+	<windows.h>
+	"./UI.h"
+
+1431748524 d:\projects\code_blocks\wudimeilib\wudimeilib\include\ui\wbox.h
+	<windows.h>
+	"./UI.h"
+	<tchar.h>
+	<DS/WNameList.h>
+
+1399688733 d:\projects\code_blocks\wudimeilib\wudimeilib\include\ui\wbutton.h
+	"WBox.h"
+
+1399110864 d:\projects\code_blocks\wudimeilib\wudimeilib\include\ui\wform.h
+	"WBox.h"
+
+1399734667 d:\projects\code_blocks\wudimeilib\wudimeilib\include\ui\wtextfield.h
+	"WBox.h"
+
+1431747393 d:\projects\code_blocks\wudimeilib\wudimeilib\include\ui\wtextarea.h
+	"WBox.h"
+	"WTextfield.h"
+
+1431747331 d:\projects\code_blocks\wudimeilib\wudimeilib\include\ui\wgroupbox.h
+	"WBox.h"
+
+1431747369 d:\projects\code_blocks\wudimeilib\wudimeilib\include\ui\wradio.h
+	"WBox.h"
+	"WGroupBox.h"
+
+1431747344 d:\projects\code_blocks\wudimeilib\wudimeilib\include\ui\wlabel.h
+	"WBox.h"
+	"./UI.h"
+
+1431747319 d:\projects\code_blocks\wudimeilib\wudimeilib\include\ui\wcheckbox.h
+	"WBox.h"
+	"WGroupBox.h"
+
+1431747380 d:\projects\code_blocks\wudimeilib\wudimeilib\include\ui\wselect.h
+	"UI.h"
+	"WBox.h"
+
+1399456049 d:\projects\code_blocks\wudimeilib\wudimeilib\include\ui\wlistbox.h
+	"WBox.h"
+
+1399600537 d:\projects\code_blocks\wudimeilib\wudimeilib\include\ui\wimagelist.h
+	<windows.h>
+	"./UI.h"
+	<commctrl.h>
+	"WBox.h"
+
+1431748555 d:\projects\code_blocks\wudimeilib\wudimeilib\include\ui\wlistview.h
+	<UI/WBox.h>
+	"./UI.h"
+	"WImageList.h"
+
+1399704112 d:\projects\code_blocks\wudimeilib\wudimeilib\include\ui\wslider.h
+	"WBox.h"
+
+1402024703 d:\projects\code_blocks\wudimeilib\wudimeilib\include\ui\wdatetimepicker.h
+	"WBox.h"
+
+1431747408 d:\projects\code_blocks\wudimeilib\wudimeilib\include\ui\wtrayicon.h
+	"WBox.h"
+	<ShellAPI.h>
+
+1431747949 source:d:\projects\code_blocks\wudimeilib\wudimeilib\src\ds\logger.cpp
+	"../include/DS/Logger.h"
+
+1402049043 d:\projects\code_blocks\wudimeilib\wudimeilib\include\ds\logger.h
+
+1431749715 source:d:\projects\code_blocks\wudimeilib\wudimeilib\src\ds\wdirectory.cpp
+	<DS/WDirectory.h>
+	<tchar.h>
+
+1431747958 source:d:\projects\code_blocks\wudimeilib\wudimeilib\src\ds\wlinklist.cpp
+	"../include/DS/WLinkList.h"
+	<Windows.h>
+	<TCHAR.h>
+
+1431747971 source:d:\projects\code_blocks\wudimeilib\wudimeilib\src\ds\wmath.cpp
+	"../include/DS/WMath.h"
+
+1431747975 source:d:\projects\code_blocks\wudimeilib\wudimeilib\src\ds\wnamelist.cpp
+	"../include/DS/WNameList.h"
+	<Windows.h>
+	<TCHAR.h>
+
+1431750232 source:d:\projects\code_blocks\wudimeilib\wudimeilib\src\ds\wstring.cpp
+	"../include/DS/WString.h"
+	"../include/DS/WMath.h"
+	<tchar.h>
+	<stdio.h>
+
+1431751070 source:d:\projects\code_blocks\wudimeilib\wudimeilib\src\ds\wvector.cpp
+	<DS/WVector.h>
+
+1431747441 source:d:\projects\code_blocks\wudimeilib\wudimeilib\src\ui\wapp.cpp
+	"../include/UI/WApp.h"
+
+1431750532 source:d:\projects\code_blocks\wudimeilib\wudimeilib\src\ui\wbmp.cpp
+	<UI/WBmp.h>
+
+1399386688 d:\projects\code_blocks\wudimeilib\wudimeilib\include\ui\wbmp.h
+	"WBox.h"
+
+1431747482 source:d:\projects\code_blocks\wudimeilib\wudimeilib\src\ui\wbox.cpp
+	"../include/UI/WBox.h"
+	"../include/UI/WApp.h"
+
+1431747497 source:d:\projects\code_blocks\wudimeilib\wudimeilib\src\ui\wbutton.cpp
+	"../include/UI/WButton.h"
+	"../include/UI/WApp.h"
+
+1431747501 source:d:\projects\code_blocks\wudimeilib\wudimeilib\src\ui\wcheckbox.cpp
+	"../include/UI/WCheckbox.h"
+
+1431747505 source:d:\projects\code_blocks\wudimeilib\wudimeilib\src\ui\wdatetimepicker.cpp
+	"../include/UI/WDateTimePicker.h"
+	<commctrl.h>
+
+1431747510 source:d:\projects\code_blocks\wudimeilib\wudimeilib\src\ui\wform.cpp
+	"../include/UI/WForm.h"
+	"../include/UI/WApp.h"
+
+1431747515 source:d:\projects\code_blocks\wudimeilib\wudimeilib\src\ui\wgroupbox.cpp
+	"../include/UI/WGroupBox.h"
+
+1431747519 source:d:\projects\code_blocks\wudimeilib\wudimeilib\src\ui\wimagelist.cpp
+	"../include/UI/WImageList.h"
+	"../include/UI/WApp.h"
+
+1431747523 source:d:\projects\code_blocks\wudimeilib\wudimeilib\src\ui\wlabel.cpp
+	"../include/UI/WLabel.h"
+
+1431747527 source:d:\projects\code_blocks\wudimeilib\wudimeilib\src\ui\wlistbox.cpp
+	"../include/UI/WListBox.h"
+
+1431747531 source:d:\projects\code_blocks\wudimeilib\wudimeilib\src\ui\wlistview.cpp
+	"../include/UI/WListView.h"
+	<commctrl.h>
+
+1431747534 source:d:\projects\code_blocks\wudimeilib\wudimeilib\src\ui\wradio.cpp
+	"../include/UI/WRadio.h"
+
+1431747538 source:d:\projects\code_blocks\wudimeilib\wudimeilib\src\ui\wselect.cpp
+	"../include/UI/WSelect.h"
+
+1431747543 source:d:\projects\code_blocks\wudimeilib\wudimeilib\src\ui\wslider.cpp
+	"../include/UI/WSlider.h"
+	<windows.h>
+	<commctrl.h>
+
+1431747547 source:d:\projects\code_blocks\wudimeilib\wudimeilib\src\ui\wtextarea.cpp
+	"../include/UI/WTextarea.h"
+
+1431747550 source:d:\projects\code_blocks\wudimeilib\wudimeilib\src\ui\wtextfield.cpp
+	"../include/UI/WTextfield.h"
+
+1431750565 source:d:\projects\code_blocks\wudimeilib\wudimeilib\src\ui\wtrayicon.cpp
+	<UI/WTrayIcon.h>
+	<UI/WApp.h>
+	<ShellAPI.h>
+
+1431770541 source:d:\projects\code_blocks\wudimeilib\wudimei.ds\main.cpp
+	"include/Wudimei/DS/DS.h"
+	"include/Wudimei/DS/WNameList.h"
+	"include/Wudimei/DS/WMath.h"
+	"include/Wudimei/DS/WString.h"
+	"include/Wudimei/DS/WVector.h"
+	"include/Wudimei/DS/WDirectory.h"
+	"include/Wudimei/DS/WLinkList.h"
+
+1431747826 d:\projects\code_blocks\wudimeilib\wudimei.ds\include\ds\ds.h
+	<windows.h>
+
+1399337030 d:\projects\code_blocks\wudimeilib\wudimei.ds\include\ds\wnamelist.h
+	"./DS.h"
+
+1399337018 d:\projects\code_blocks\wudimeilib\wudimei.ds\include\ds\wmath.h
+	"./DS.h"
+
+1431749969 d:\projects\code_blocks\wudimeilib\wudimei.ds\include\ds\wstring.h
+	"./DS.h"
+
+1431752271 d:\projects\code_blocks\wudimeilib\wudimei.ds\include\ds\wvector.h
+	"./DS.h"
+
+1431748513 d:\projects\code_blocks\wudimeilib\wudimei.ds\include\ds\wdirectory.h
+	"./DS.h"
+	<io.h>
+	<direct.h>
+	<DS/WString.h>
+	<DS/WLinkList.h>
+	<iostream>
+
+1411913076 d:\projects\code_blocks\wudimeilib\wudimei.ds\include\ds\wlinklist.h
+	"./DS.h"
+
+1431747949 source:d:\projects\code_blocks\wudimeilib\wudimei.ds\src\ds\logger.cpp
+	"../include/DS/Logger.h"
+
+1402049043 d:\projects\code_blocks\wudimeilib\wudimei.ds\include\ds\logger.h
+
+1431749715 source:d:\projects\code_blocks\wudimeilib\wudimei.ds\src\ds\wdirectory.cpp
+	<DS/WDirectory.h>
+	<tchar.h>
+
+1431747958 source:d:\projects\code_blocks\wudimeilib\wudimei.ds\src\ds\wlinklist.cpp
+	"../include/DS/WLinkList.h"
+	<Windows.h>
+	<TCHAR.h>
+
+1431747971 source:d:\projects\code_blocks\wudimeilib\wudimei.ds\src\ds\wmath.cpp
+	"../include/DS/WMath.h"
+
+1431747975 source:d:\projects\code_blocks\wudimeilib\wudimei.ds\src\ds\wnamelist.cpp
+	"../include/DS/WNameList.h"
+	<Windows.h>
+	<TCHAR.h>
+
+1431752220 source:d:\projects\code_blocks\wudimeilib\wudimei.ds\src\ds\wstring.cpp
+	"../include/DS/WString.h"
+	"../include/DS/WMath.h"
+	<tchar.h>
+	<stdio.h>
+
+1431758445 source:d:\projects\code_blocks\wudimeilib\wudimei.ds\src\ds\wvector.cpp
+	<DS/WVector.h>
+
+1431747826 d:\projects\code_blocks\wudimeilib\wudimei.ds\include\wudimei\ds\ds.h
+	<windows.h>
+
+1399337030 d:\projects\code_blocks\wudimeilib\wudimei.ds\include\wudimei\ds\wnamelist.h
+	"./DS.h"
+
+1399337018 d:\projects\code_blocks\wudimeilib\wudimei.ds\include\wudimei\ds\wmath.h
+	"./DS.h"
+
+1431749969 d:\projects\code_blocks\wudimeilib\wudimei.ds\include\wudimei\ds\wstring.h
+	"./DS.h"
+
+1431752271 d:\projects\code_blocks\wudimeilib\wudimei.ds\include\wudimei\ds\wvector.h
+	"./DS.h"
+
+1431770587 d:\projects\code_blocks\wudimeilib\wudimei.ds\include\wudimei\ds\wdirectory.h
+	"./DS.h"
+	<io.h>
+	<direct.h>
+	<Wudimei/DS/WString.h>
+	<Wudimei/DS/WLinkList.h>
+	<iostream>
+
+1411913076 d:\projects\code_blocks\wudimeilib\wudimei.ds\include\wudimei\ds\wlinklist.h
+	"./DS.h"
+
+1431770545 source:d:\projects\code_blocks\wudimeilib\wudimei.ds\src\wudimei\ds\logger.cpp
+	"../include/Wudimei/DS/Logger.h"
+
+1402049043 d:\projects\code_blocks\wudimeilib\wudimei.ds\include\wudimei\ds\logger.h
+
+1431770549 source:d:\projects\code_blocks\wudimeilib\wudimei.ds\src\wudimei\ds\wdirectory.cpp
+	<Wudimei/DS/WDirectory.h>
+	<tchar.h>
+
+1431770554 source:d:\projects\code_blocks\wudimeilib\wudimei.ds\src\wudimei\ds\wlinklist.cpp
+	"../include/Wudimei/DS/WLinkList.h"
+	<Windows.h>
+	<TCHAR.h>
+
+1431770557 source:d:\projects\code_blocks\wudimeilib\wudimei.ds\src\wudimei\ds\wmath.cpp
+	"../include/Wudimei/DS/WMath.h"
+
+1431770560 source:d:\projects\code_blocks\wudimeilib\wudimei.ds\src\wudimei\ds\wnamelist.cpp
+	"../include/Wudimei/DS/WNameList.h"
+	<Windows.h>
+	<TCHAR.h>
+
+1431770566 source:d:\projects\code_blocks\wudimeilib\wudimei.ds\src\wudimei\ds\wstring.cpp
+	"../include/Wudimei/DS/WString.h"
+	"../include/Wudimei/DS/WMath.h"
+	<tchar.h>
+	<stdio.h>
+

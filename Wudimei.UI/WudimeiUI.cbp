@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="WudimeiUI" />
+		<Option pch_mode="2" />
+		<Option compiler="msvc10" />
+		<Build>
+			<Target title="debug">
+				<Option output="../WudimeiLibBin/debug/Wudimei_UI_d" prefix_auto="1" extension_auto="1" />
+				<Option object_output="../WudimeiLibBin/obj/Wudimei.UI/debug/" />
+				<Option type="3" />
+				<Option compiler="msvc10" />
+				<Option createDefFile="1" />
+				<Option createStaticLib="1" />
+				<Compiler>
+					<Add option="/MDd" />
+					<Add option="/W3" />
+					<Add option="/Zi" />
+					<Add option="/DBUILD_DLL" />
+					<Add option="/D_DEBUG" />
+					<Add directory="include" />
+					<Add directory="../Wudimei.DS/include" />
+				</Compiler>
+				<Linker>
+					<Add option="/DEBUG" />
+					<Add option="/INCREMENTAL:NO" />
+					<Add library="user32" />
+					<Add library="D:\Program Files\Microsoft SDKs\Windows\v7.1\Lib\Gdi32.Lib" />
+					<Add library="D:\Program Files\Microsoft Visual Studio 10.0\VC\lib\comsupp.lib" />
+					<Add library="D:\Program Files\Microsoft SDKs\Windows\v7.1\Lib\ComCtl32.Lib" />
+					<Add library="D:\Program Files\Microsoft SDKs\Windows\v7.1\Lib\shell32.lib" />
+					<Add library="..\WudimeiLibBin\debug\Wudimei_DS_d.lib" />
+				</Linker>
+				<ExtraCommands>
+					<Add after='mt.exe /nologo /manifest &quot;bin\Debug\WudimeiUI.dll.manifest&quot; /outputresource:&quot;bin\Debug\WudimeiLib.dll&quot;;2' />
+				</ExtraCommands>
+			</Target>
+			<Target title="ascii">
+				<Option output="../WudimeiLibBin/ascii/Wudimei_UI_a" prefix_auto="1" extension_auto="1" />
+				<Option object_output="../WudimeiLibBin/obj/Wudimei.UI/ascii/" />
+				<Option type="3" />
+				<Option compiler="msvc10" />
+				<Option createDefFile="1" />
+				<Option createStaticLib="1" />
+				<Compiler>
+					<Add option="/MD" />
+					<Add option="/Ox" />
+					<Add option="/W3" />
+					<Add option="/DBUILD_DLL" />
+					<Add option="/DNDEBUG" />
+					<Add directory="include" />
+					<Add directory="../Wudimei.DS/include" />
+				</Compiler>
+				<Linker>
+					<Add option="/INCREMENTAL:NO" />
+					<Add library="user32" />
+					<Add library="D:\Program Files\Microsoft SDKs\Windows\v7.1\Lib\Gdi32.Lib" />
+					<Add library="D:\Program Files\Microsoft Visual Studio 10.0\VC\lib\comsupp.lib" />
+					<Add library="..\WudimeiLibBin\ascii\Wudimei_DS_a.lib" />
+					<Add library="D:\Program Files\Microsoft SDKs\Windows\v7.1\Lib\ComCtl32.Lib" />
+					<Add library="D:\Program Files\Microsoft SDKs\Windows\v7.1\Lib\shell32.lib" />
+				</Linker>
+				<ExtraCommands>
+					<Add after='mt.exe /nologo /manifest &quot;bin\Release\WudimeiUI.dll.manifest&quot; /outputresource:&quot;bin\Release\WudimeiLib.dll&quot;;2' />
+				</ExtraCommands>
+			</Target>
+			<Target title="unicode">
+				<Option output="../WudimeiLibBin/unicode/Wudimei_UI_u" prefix_auto="1" extension_auto="1" />
+				<Option object_output="../WudimeiLibBin/obj/Wudimei.UI/unicode/" />
+				<Option type="3" />
+				<Option compiler="msvc10" />
+				<Option createDefFile="1" />
+				<Option createStaticLib="1" />
+				<Compiler>
+					<Add option="/MD" />
+					<Add option="/Ox" />
+					<Add option="/W3" />
+					<Add option="/DBUILD_DLL" />
+					<Add option="/DNDEBUG" />
+					<Add option="/DUNICODE" />
+					<Add option="/D_UNICODE" />
+					<Add directory="include" />
+					<Add directory="../Wudimei.DS/include" />
+				</Compiler>
+				<Linker>
+					<Add option="/INCREMENTAL:NO" />
+					<Add library="user32" />
+					<Add library="D:\Program Files\Microsoft SDKs\Windows\v7.1\Lib\Gdi32.Lib" />
+					<Add library="D:\Program Files\Microsoft Visual Studio 10.0\VC\lib\comsupp.lib" />
+					<Add library="D:\Program Files\Microsoft SDKs\Windows\v7.1\Lib\ComCtl32.Lib" />
+					<Add library="D:\Program Files\Microsoft SDKs\Windows\v7.1\Lib\shell32.lib" />
+					<Add library="..\WudimeiLibBin\unicode\Wudimei_DS_u.lib" />
+				</Linker>
+				<ExtraCommands>
+					<Add after='mt.exe /nologo /manifest &quot;bin\Release\WudimeiLib.dll.manifest&quot; /outputresource:&quot;bin\Release\WudimeiUI.dll&quot;;2' />
+				</ExtraCommands>
+			</Target>
+		</Build>
+		<Unit filename="include/Wudimei/UI/UI.h" />
+		<Unit filename="include/Wudimei/UI/WApp.h" />
+		<Unit filename="include/Wudimei/UI/WBmp.h" />
+		<Unit filename="include/Wudimei/UI/WBox.h" />
+		<Unit filename="include/Wudimei/UI/WButton.h" />
+		<Unit filename="include/Wudimei/UI/WCheckbox.h" />
+		<Unit filename="include/Wudimei/UI/WControl.h" />
+		<Unit filename="include/Wudimei/UI/WDateTimePicker.h" />
+		<Unit filename="include/Wudimei/UI/WForm.h" />
+		<Unit filename="include/Wudimei/UI/WGroupBox.h" />
+		<Unit filename="include/Wudimei/UI/WImageList.h" />
+		<Unit filename="include/Wudimei/UI/WLabel.h" />
+		<Unit filename="include/Wudimei/UI/WListBox.h" />
+		<Unit filename="include/Wudimei/UI/WListView.h" />
+		<Unit filename="include/Wudimei/UI/WRadio.h" />
+		<Unit filename="include/Wudimei/UI/WSelect.h" />
+		<Unit filename="include/Wudimei/UI/WSlider.h" />
+		<Unit filename="include/Wudimei/UI/WTextarea.h" />
+		<Unit filename="include/Wudimei/UI/WTextfield.h" />
+		<Unit filename="include/Wudimei/UI/WTrayIcon.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/Wudimei/UI/WApp.cpp" />
+		<Unit filename="src/Wudimei/UI/WBmp.cpp" />
+		<Unit filename="src/Wudimei/UI/WBox.cpp" />
+		<Unit filename="src/Wudimei/UI/WButton.cpp" />
+		<Unit filename="src/Wudimei/UI/WCheckbox.cpp" />
+		<Unit filename="src/Wudimei/UI/WControl.cpp" />
+		<Unit filename="src/Wudimei/UI/WDateTimePicker.cpp" />
+		<Unit filename="src/Wudimei/UI/WForm.cpp" />
+		<Unit filename="src/Wudimei/UI/WGroupBox.cpp" />
+		<Unit filename="src/Wudimei/UI/WImageList.cpp" />
+		<Unit filename="src/Wudimei/UI/WLabel.cpp" />
+		<Unit filename="src/Wudimei/UI/WListBox.cpp" />
+		<Unit filename="src/Wudimei/UI/WListView.cpp" />
+		<Unit filename="src/Wudimei/UI/WRadio.cpp" />
+		<Unit filename="src/Wudimei/UI/WSelect.cpp" />
+		<Unit filename="src/Wudimei/UI/WSlider.cpp" />
+		<Unit filename="src/Wudimei/UI/WTextarea.cpp" />
+		<Unit filename="src/Wudimei/UI/WTextfield.cpp" />
+		<Unit filename="src/Wudimei/UI/WTrayIcon.cpp" />
+		<Extensions>
+			<code_completion>
+				<search_path add="D:\projects\code_blocks\Wudimei.UI\include" />
+				<search_path add="D:\projects\code_blocks\WudimeiUI\include" />
+			</code_completion>
+			<envvars />
+			<debugger>
+				<search_path add="..\WudimeiUI\bin\Release" />
+			</debugger>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

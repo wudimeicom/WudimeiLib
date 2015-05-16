@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="WudimeiDS" />
+		<Option pch_mode="2" />
+		<Option compiler="msvc10" />
+		<Build>
+			<Target title="debug">
+				<Option output="../WudimeiLibBin/debug/Wudimei_DS_d" prefix_auto="1" extension_auto="1" />
+				<Option object_output="../WudimeiLibBin/obj/Wudimei.DS/debug/" />
+				<Option type="3" />
+				<Option compiler="msvc10" />
+				<Option createDefFile="1" />
+				<Option createStaticLib="1" />
+				<Compiler>
+					<Add option="/MDd" />
+					<Add option="/W3" />
+					<Add option="/Zi" />
+					<Add option="/DBUILD_DLL" />
+					<Add option="/D_DEBUG" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="/DEBUG" />
+					<Add option="/INCREMENTAL:NO" />
+					<Add library="user32" />
+				</Linker>
+				<ExtraCommands>
+					<Add after='mt.exe /nologo /manifest &quot;bin\Debug\WudimeiUI.dll.manifest&quot; /outputresource:&quot;bin\Debug\WudimeiLib.dll&quot;;2' />
+				</ExtraCommands>
+			</Target>
+			<Target title="ascii">
+				<Option output="../WudimeiLibBin/ascii/Wudimei_DS_a" prefix_auto="1" extension_auto="1" />
+				<Option object_output="../WudimeiLibBin/obj/Wudimei.DS/ascii/" />
+				<Option type="3" />
+				<Option compiler="msvc10" />
+				<Option createDefFile="1" />
+				<Option createStaticLib="1" />
+				<Compiler>
+					<Add option="/MD" />
+					<Add option="/Ox" />
+					<Add option="/W3" />
+					<Add option="/DBUILD_DLL" />
+					<Add option="/DNDEBUG" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="/INCREMENTAL:NO" />
+					<Add library="user32" />
+				</Linker>
+				<ExtraCommands>
+					<Add after='mt.exe /nologo /manifest &quot;bin\Release\WudimeiUI.dll.manifest&quot; /outputresource:&quot;bin\Release\WudimeiLib.dll&quot;;2' />
+				</ExtraCommands>
+			</Target>
+			<Target title="unicode">
+				<Option output="../WudimeiLibBin/unicode/Wudimei_DS_u" prefix_auto="1" extension_auto="1" />
+				<Option object_output="../WudimeiLibBin/obj/Wudimei.DS/unicode/" />
+				<Option type="3" />
+				<Option compiler="msvc10" />
+				<Option createDefFile="1" />
+				<Option createStaticLib="1" />
+				<Compiler>
+					<Add option="/MD" />
+					<Add option="/Ox" />
+					<Add option="/W3" />
+					<Add option="/DBUILD_DLL" />
+					<Add option="/DNDEBUG" />
+					<Add option="/DUNICODE" />
+					<Add option="/D_UNICODE" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="/INCREMENTAL:NO" />
+					<Add library="user32" />
+				</Linker>
+				<ExtraCommands>
+					<Add after='mt.exe /nologo /manifest &quot;bin\Release\WudimeiLib.dll.manifest&quot; /outputresource:&quot;bin\Release\WudimeiUI.dll&quot;;2' />
+				</ExtraCommands>
+			</Target>
+		</Build>
+		<Unit filename="include/Wudimei/DS/DS.h" />
+		<Unit filename="include/Wudimei/DS/Logger.h" />
+		<Unit filename="include/Wudimei/DS/WDirectory.h" />
+		<Unit filename="include/Wudimei/DS/WLinkList.h" />
+		<Unit filename="include/Wudimei/DS/WMath.h" />
+		<Unit filename="include/Wudimei/DS/WNameList.h" />
+		<Unit filename="include/Wudimei/DS/WString.h" />
+		<Unit filename="include/Wudimei/DS/WVector.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/Wudimei/DS/Logger.cpp" />
+		<Unit filename="src/Wudimei/DS/WDirectory.cpp" />
+		<Unit filename="src/Wudimei/DS/WLinkList.cpp" />
+		<Unit filename="src/Wudimei/DS/WMath.cpp" />
+		<Unit filename="src/Wudimei/DS/WNameList.cpp" />
+		<Unit filename="src/Wudimei/DS/WString.cpp" />
+		<Unit filename="src/Wudimei/DS/WVector.cpp" />
+		<Extensions>
+			<code_completion>
+				<search_path add="D:\projects\code_blocks\WudimeiLib\WudimeiLib\include" />
+				<search_path add="D:\projects\code_blocks\Wudimei.UI\include" />
+				<search_path add="D:\projects\code_blocks\WudimeiUI\include" />
+			</code_completion>
+			<envvars />
+			<debugger>
+				<search_path add="..\WudimeiUI\bin\Release" />
+			</debugger>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
